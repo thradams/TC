@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Scanner.c" />
+    <ClCompile Include="StrBuilder.c" />
+    <ClCompile Include="Stream.c" />
+    <ClCompile Include="StringX.c" />
+    <ClCompile Include="TC.cpp" />
+    <ClCompile Include="Parser.c" />
+    <ClCompile Include="Macros.c" />
+    <ClCompile Include="Ast.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scanner.h" />
+    <ClInclude Include="StrBuilder.h" />
+    <ClInclude Include="Stream.h" />
+    <ClInclude Include="StringX.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="Ast.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
